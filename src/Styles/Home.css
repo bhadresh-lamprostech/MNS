@@ -1,0 +1,53 @@
+/* LandingPage.css */
+.fade-left-appear,
+.fade-left-enter {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+
+.fade-left-appear-active,
+.fade-left-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.fade-right-appear,
+.fade-right-enter {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.fade-right-appear-active,
+.fade-right-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.started-btn {
+  border-radius: 1rem;
+  border: 2px solid white;
+}
+
+.started-btn {
+  transition: transform 0.3s ease-in-out;
+}
+.started-btn:hover {
+  transform: scale(1.15);
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.shake {
+  animation: shake 1s infinite;
+}
