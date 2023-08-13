@@ -98,14 +98,13 @@ function Home() {
             classNames="fade-right"
           >
             <div className="col-md-6 text-dark">
-              <h1>Welcome to MNS ".mode"</h1>
+              <h2>About MNS ".mode"</h2>
               <p>
-                Discover a new era of simplified blockchain interactions with
-                MNS ".mode," the innovative Naming System that redefines the way
-                you manage your digital assets. Designed to enhance the user
-                experience within the MODE blockchain ecosystem, MNS ".mode"
-                introduces a revolutionary approach to handling Ethereum EOA
-                addresses.
+                MNS ".mode" is a groundbreaking Naming System project that aims
+                to simplify blockchain transactions. By associating
+                user-friendly name handles with complex Ethereum EOA addresses,
+                we're revolutionizing the way you interact with blockchain
+                technology.
               </p>
             </div>
           </CSSTransition>
